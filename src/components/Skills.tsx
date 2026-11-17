@@ -14,6 +14,7 @@ const Skills = () => {
     { name: "Git", image: "/images/git-logo.png" },
     { name: "GitHub", image: "/images/github-logo.png" },
     { name: "Figma", image: "/images/figma-logo.png" },
+    { name: "Figma", image: "/images/laravel-logo.jpeg" },
   ];
 
   return (

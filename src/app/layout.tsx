@@ -10,8 +10,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Bagas Ramadhan Rusnadi - Portfolio",
-  description: "Portfolio website of Bagas Ramadhan Rusnadi, a web developer specializing in modern web technologies and responsive design.",
+  title: "Muhammad Dimas Pratama - Portfolio",
+  description: "Portfolio website Muhammad Dimas Pratama, a web developer specializing in modern web technologies and responsive design.",
+  icons: {
+    icon: "./images/logoBulat2.png",
+  },
 };
 
 export default function RootLayout({
@@ -22,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./images/logokecil-bulet.png" />
+        <link rel="icon" href="./images/logAsli.jpeg" />
       </head>
       <body className={`${poppins.variable} font-poppins antialiased`}>{children}</body>
     </html>

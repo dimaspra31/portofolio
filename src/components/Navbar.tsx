@@ -25,7 +25,13 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="font-bold text-xl text-maroon-800 dark:text-maroon-300">
-          <Image src="/images/logokecil-transparent.png" alt="Logo Bagas Ramadhan Rusnadi" width={40} height={40} className="inline-block mr-2" />
+          <Image
+            src="/images/logoBulat2.png" // Sesuaikan dengan path file PNG bulat Anda
+            alt="Logo Muhammad Dimas Pratama"
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
         </Link>
         <div className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
@@ -35,7 +41,7 @@ export const Navbar = () => {
               className={cn(
                 "transition-colors hover:text-maroon-700 dark:hover:text-maroon-400",
                 // 4. Terapkan class `active` jika link ini adalah section yang sedang aktif
-                activeSection === link.href.substring(1) ? "text-maroon-700 dark:text-maroon-400 font-semibold" : "text-slate-600 dark:text-slate-300"
+                activeSection === link.href.substring(1) ? "text-maroon-700 dark:text-maroon-400 font-semibold" : "text-slate-600 dark:text-slate-300",
               )}
             >
               {link.label}

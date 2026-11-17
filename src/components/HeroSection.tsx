@@ -6,7 +6,7 @@ export const HeroSection = () => {
     <section id="home" className="min-h-screen flex items-center justify-center text-center bg-slate-50 dark:bg-slate-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 dark:text-white leading-tight mb-4">
-          Halo, saya <span className="text-maroon-600 dark:text-maroon-500">Bagas Ramadhan Rusnadi</span>
+          Halo, saya <span className="text-maroon-600 dark:text-maroon-500">Muhammad Dimas Pratama</span>
         </h1>
         <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto">Seorang Full-Stack Developer yang bersemangat membangun aplikasi web yang modern dan fungsional.</p>
         <Contact />

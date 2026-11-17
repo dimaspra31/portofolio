@@ -5,16 +5,16 @@
     "description": "Platform Learning Management System (LMS) interaktif yang memungkinkan pengguna mengikuti kursus online. Dilengkapi fitur progress tracking, kuis, dan dashboard personal.",
     "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
     "image": "/images/projects/lms/homepage.png",
-    "liveUrl": "https://lms.bagasrr.my.id",
-    "codeUrl": "https://github.com/bagasrr/chill-study.git"
+    "liveUrl": "https://",
+    "codeUrl": "https://"
   },
   {
-    "code": "partmonitoring",
-    "title": "Stok.in - Monitoring Suku Cadang",
-    "description": "Aplikasi web untuk monitoring stok suku cadang secara real-time. Memudahkan manajemen inventaris dengan fitur pencatatan barang masuk/keluar dan notifikasi stok minimum.",
-    "tags": ["React", "Node.js", "Express.js", "MySQL", "Tailwind CSS", "Chart.js"],
-    "image": "/images/projects/partmonitoring/dashboard.png",
-    "liveUrl": "https://partmonitoring.my.id",
-    "codeUrl": "https://github.com/bagasrr/partMonitoring.git"
+    "code": "Web Portal Berita",
+    "title": "MOCO - Web Portal Berita",
+    "description": "Aplikasi web untuk melihat berita terbaru. Memudahkan masyarakat untuk melihat beritas terkini yang terbaru dan terpercaya",
+    "tags": ["Laravel", "PHP", "MySQL", "Tailwind CSS"],
+    "image": "/images/projects/portalBerita/portalBerita.png",
+    "liveUrl": "https://",
+    "codeUrl": "https://"
   }
 ]
